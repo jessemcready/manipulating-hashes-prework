@@ -18,7 +18,7 @@ def first_challenge
     if key == :favorite_icecream_flavors
       contacts["Freddy Mercury"][key].delete_if { |key, value| value == "strawberry" }
     end
-    puts
+    puts contacts["Freddy Mercury"]
   end
 
   #remember to return your newly altered contacts hash!
