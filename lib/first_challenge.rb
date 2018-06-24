@@ -18,7 +18,8 @@ def first_challenge
     if name == "Freddy Mercury"
       data.each do |key, value|
         if key == :favorite_icecream_flavors
-          
+          key.delete("strawberry")
+        end
       end
     end
   end
