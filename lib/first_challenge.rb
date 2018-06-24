@@ -14,8 +14,8 @@ def first_challenge
   }
 
   #your code here
-  contacts.each do |name, data|
-    
+  contacts["Freddy Mercury"].each do |key, value|
+    puts value
   end
 
   #remember to return your newly altered contacts hash!
